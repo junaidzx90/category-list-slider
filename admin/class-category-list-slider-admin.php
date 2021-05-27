@@ -146,6 +146,7 @@ class Category_List_Slider_Admin {
 				'orderby' 	=> 'count',
 				'current_category'    => 0,
 				'style'               => 'carousel',
+				'slide'               => '3',
 				'hierarchical'        => 1,
 				'hide_empty' => true,
 			), $atts, 'cls_slider'

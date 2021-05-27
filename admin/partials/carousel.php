@@ -18,7 +18,7 @@
     jQuery(function ($) {
         $('.slider').slick({
             centerMode: true,
-            slidesToShow: 3,
+            slidesToShow: <?php echo $atts['slide']; ?>,
             responsive: [
                 {
                 breakpoint: 768,

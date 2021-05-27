@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       Category List Slider
  * Plugin URI:        https://github.com/junaidzx90/category-list-slider
- * Description:       Use: <strong>[cls_slider style="single" taxonomy="category"]</strong> OR <strong>[cls_slider style="carousel" taxonomy="category"]</strong>.
+ * Description:       Use: <strong>[cls_slider style="single" taxonomy="category"]</strong> OR <strong>[cls_slider style="carousel" taxonomy="category" slide="3"]</strong>.
  * Version:           1.0.0
  * Author:            junaidzx90
  * Author URI:        https://www.fiverr.com/junaidzx90
