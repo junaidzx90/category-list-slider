@@ -1,0 +1,68 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .slider {
+  width: 100%;
+  margin: 0px auto;
+  height: 80vh !important;
+}
+.slick-list {
+  height: 100%;
+}
+.slick-track {
+  height: 100%;
+}
+.slick-current.slick-active>div {
+  height: 100%;
+}
+.slide{
+  height: 100%;
+  position: relative;
+}
+span.overley {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #0000007d;
+  opacity: 0;
+  position: absolute;
+}
+.slide:hover>span{
+  transition: .4s;
+  opacity: 1;
+}
+.slideinfo {
+  background: #ffffff8c;
+  width: 50%;
+  padding: 12px;
+}
+
+.slideinfo a {
+  color: #bd000f;
+  border-bottom: 1px solid;
+  border-bottom-width: thick;
+  padding-bottom: 10px;
+}
+
+.slick-prev {
+  left: 6px;
+}
+.slick-next {
+  right: 6px;
+}
+@media screen and (max-width:780px) and (min-width:280px) {
+  .slick-current.slick-active>div {
+    height: fit-content;
+  }
+  .slideinfo {
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width:480px) and (min-width:280px) {
+  .slideinfo p {
+    display: none;
+  }
+}
